@@ -1,3 +1,4 @@
-require('./style.css');
-const common = require('./common.js'); 
-common.info('Hello world!');
+require("./style/style.scss")
+var img = document.createElement("img")
+img.src = require("./assets/image/webpack.png")
+document.body.appendChild(img);
